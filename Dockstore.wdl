@@ -10,7 +10,7 @@ task hello {
   }
 
   runtime {
-    docker: "quay.io/ga4gh-dream/dockstore-tool-helloworld:1.0.2"
+    docker: "ubuntu@sha256:d7bb0589725587f2f67d0340edb81fd1fcba6c5f38166639cf2a252c939aa30c"
   }
 }
 
