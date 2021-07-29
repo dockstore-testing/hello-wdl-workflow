@@ -10,7 +10,7 @@ task hello {
   }
 
   runtime {
-    docker: "ghcr.io/homebrew/core/python/3.9:3.9.6"
+    docker: "public.ecr.aws/ubuntu/ubuntu:18.04"
   }
 }
 
@@ -24,26 +24,11 @@ task world {
   }
 
   runtime {
-    docker: "ghcr.io/homebrew/core/curl:7.77.0-1@sha256:fb8d936ef54845f01c289589985555fd679d774ba9d3eab005417ab2851df7e1"
-  }
-}
-
-task helloWorld {
-  command {
-    echo 'Hello world!'
-  }
-
-  output {
-    File response = stdout()
-  }
-
-  runtime {
-    docker: "ghcr.io/helm/tiller@sha256:4c43eb385032945cad047d2350e4945d913b90b3ab43ee61cecb32a495c6df0f"
+    docker: "public.ecr.aws/bitnami/python@sha256:4584e7a7c2a420273254c6d1276fa139a4186162d08a308df282da4e0576d725"
   }
 }
 
 workflow test {
   call hello
   call world
-  call helloWorld
 }
