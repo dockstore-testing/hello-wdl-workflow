@@ -24,7 +24,7 @@ task world {
   }
 
   runtime {
-    docker: "quay.io/skopeo/stable@sha256:592f029fe812633ac7cff24f4548fa39c1976f29d18f4e0fb3dc2584de6231e2"
+    docker: "quay.io/skopeo/stable@sha256:5590c7d14c3511627300ede0bdef354d099bcfcf675abc2c0cbe5439a8d99a5b"
   }
 }
 
