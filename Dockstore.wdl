@@ -15,5 +15,9 @@ task hello {
 }
 
 workflow test {
+  meta {
+    author: "Test Author"
+  }
+
   call hello
 }
