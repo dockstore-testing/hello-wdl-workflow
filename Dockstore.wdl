@@ -10,7 +10,7 @@ task hello {
   }
 
   runtime {
-    docker: "quay.io/ga4gh-dream/dockstore-tool-helloworld@sha256:3a854fd1ebd970011fa57c8c099347314eda36cc746fd831f4deff9a1d433718"
+    docker: "quay.io/ga4gh-dream/dockstore-tool-helloworld@sha256:71c0f43d9081cb14411adae56773762b1e829f7175645484571dcb1c6e120d23"
   }
 }
 
