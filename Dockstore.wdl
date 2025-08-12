@@ -10,7 +10,7 @@ task hello {
   }
 
   runtime {
-    docker: "ubuntu@sha256:7c06e91f61fa88c08cc74f7e1b7c69ae24910d745357e0dfe1d2c0322aaf20f9"
+    docker: "ubuntu@sha256:3f85b7caad41a95462cf5b787d8a04604c8262cdcdf9a472b8c52ef83375fe15"
   }
 }
 
